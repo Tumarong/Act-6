@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  padding: 10px;
+  justify-content: center;
+  background-color: #000000;
+  color: rgb(255, 0, 0);
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.container {
+  height: 200px;
+  width: 400px;
+  justify-content:center;
+  border: solid 1px rgb(255, 136, 0);
+  padding: 200px 200px;
+}
+
+button {
+  padding: 5px 50px;
+  border: 1px solid rgb(255, 136, 0);
+}
+
+.button-container {
+  display: flex;
+  gap: 40px;
+  align-items: center ;
+}
