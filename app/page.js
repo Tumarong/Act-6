@@ -11,16 +11,20 @@ export default function Home() {
     setNum((prevNum) => prevNum - 1);
   };
 
+     
   return (
-    <div className='container'>
+    <div className='center'>
       <center>
-      <h1>𝘾𝙊𝙐𝙉𝙏𝙀𝙍</h1>
+      <h1>🅲🅾🆄🅽🆃🅴🆁</h1>
       <span>Counter : {number}</span>
       </center>
-      <div className='button-container'>
+      <div className='buttom-container'>
+        <center>
         <button onClick={increment}>Increment</button>
         <button onClick={decrement}>Decrement</button>
+        </center>
       </div>
     </div>
+
   );
 }

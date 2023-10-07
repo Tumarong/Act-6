@@ -11,28 +11,27 @@
 body {
   padding: 10px;
   justify-content: center;
-  background-color: #000000;
-  color: rgb(255, 0, 0);
+  background-color: #f7f7f7;
+  color: rgb(223, 7, 179);
 }
 
 h1 {
   font-size: 30px;
 }
 
-.container {
-  height: 200px;
-  width: 400px;
-  justify-content:center;
-  border: solid 1px rgb(255, 136, 0);
-  padding: 200px 200px;
+.center {
+  margin: auto;
+  width: 60%;
+  border: 5px solid #73AD21;
+  padding: 10px;
 }
 
 button {
   padding: 5px 50px;
-  border: 1px solid rgb(255, 136, 0);
+  border: 1px solid rgb(7, 211, 247);
 }
 
-.button-container {
+.center {
   display: flex;
   gap: 40px;
   align-items: center ;
